@@ -10,14 +10,14 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
             line-height: 1.6;
             color: #333;
             background-color: #FFF8E1;
         }
-        
+
         /* ヘッダー */
         .header {
             background: linear-gradient(135deg, #FFA726 0%, #FF6F00 100%);
@@ -27,7 +27,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .header::before {
             content: "🍳";
             position: absolute;
@@ -36,26 +36,26 @@
             top: -50px;
             right: -50px;
         }
-        
+
         .header h1 {
             font-size: 48px;
             margin-bottom: 20px;
             position: relative;
         }
-        
+
         .header .subtitle {
             font-size: 24px;
             margin-bottom: 10px;
             opacity: 0.95;
         }
-        
+
         .header .description {
             font-size: 16px;
             opacity: 0.9;
             max-width: 600px;
             margin: 0 auto;
         }
-        
+
         /* ナビゲーション */
         .nav {
             background-color: white;
@@ -66,7 +66,7 @@
             z-index: 100;
             text-align: center;
         }
-        
+
         .nav a {
             text-decoration: none;
             color: #FF6F00;
@@ -75,19 +75,19 @@
             display: inline-block;
             padding: 5px 10px;
         }
-        
+
         .nav a:hover {
             background-color: #FFF3E0;
             border-radius: 5px;
         }
-        
+
         /* コンテナ */
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-        
+
         /* セクション共通 */
         .section {
             background: white;
@@ -96,21 +96,21 @@
             border-radius: 20px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        
+
         .section-title {
             text-align: center;
             font-size: 32px;
             color: #FF6F00;
             margin-bottom: 20px;
         }
-        
+
         .section-subtitle {
             text-align: center;
             color: #666;
             margin-bottom: 50px;
             font-size: 16px;
         }
-        
+
         /* 特徴セクション */
         .features {
             display: grid;
@@ -118,7 +118,7 @@
             gap: 30px;
             margin-top: 40px;
         }
-        
+
         .feature-card {
             text-align: center;
             padding: 30px;
@@ -126,30 +126,30 @@
             border-radius: 15px;
             transition: transform 0.3s;
         }
-        
+
         .feature-card:hover {
             transform: translateY(-5px);
         }
-        
+
         .feature-icon {
             font-size: 64px;
             margin-bottom: 20px;
             display: block;
         }
-        
+
         .feature-title {
             font-size: 20px;
             font-weight: 600;
             margin-bottom: 15px;
             color: #333;
         }
-        
+
         .feature-description {
             color: #666;
             line-height: 1.8;
             font-size: 14px;
         }
-        
+
         /* 使い方セクション */
         .steps {
             display: flex;
@@ -159,13 +159,13 @@
             gap: 30px;
             margin-top: 40px;
         }
-        
+
         .step {
             text-align: center;
             flex: 1;
             min-width: 200px;
         }
-        
+
         .step-number {
             display: inline-block;
             width: 50px;
@@ -178,25 +178,25 @@
             font-weight: 600;
             margin-bottom: 15px;
         }
-        
+
         .step-title {
             font-size: 18px;
             font-weight: 600;
             margin-bottom: 10px;
             color: #333;
         }
-        
+
         .step-description {
             color: #666;
             font-size: 14px;
         }
-        
+
         .arrow {
             font-size: 36px;
             color: #FFB74D;
             align-self: center;
         }
-        
+
         /* ダウンロードセクション */
         .download-section {
             background: linear-gradient(135deg, #FFA726 0%, #FF6F00 100%);
@@ -206,25 +206,25 @@
             border-radius: 20px;
             margin: 40px auto;
         }
-        
+
         .download-title {
             font-size: 32px;
             margin-bottom: 20px;
         }
-        
+
         .download-subtitle {
             font-size: 16px;
             margin-bottom: 30px;
             opacity: 0.9;
         }
-        
+
         .download-buttons {
             display: flex;
             justify-content: center;
             gap: 20px;
             flex-wrap: wrap;
         }
-        
+
         .download-btn {
             display: inline-block;
             padding: 15px 40px;
@@ -236,18 +236,18 @@
             font-size: 18px;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-        
+
         .download-btn:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 16px rgba(0,0,0,0.2);
         }
-        
+
         .coming-soon {
             margin-top: 20px;
             font-size: 14px;
             opacity: 0.8;
         }
-        
+
         /* フッター */
         footer {
             background: #FF6F00;
@@ -256,7 +256,7 @@
             padding: 40px 20px;
             margin-top: 60px;
         }
-        
+
         .footer-links {
             margin-top: 20px;
             display: flex;
@@ -264,36 +264,36 @@
             gap: 20px;
             flex-wrap: wrap;
         }
-        
+
         .footer-links a {
             color: white;
             text-decoration: none;
             opacity: 0.9;
         }
-        
+
         .footer-links a:hover {
             opacity: 1;
             text-decoration: underline;
         }
-        
+
         /* レスポンシブ */
         @media (max-width: 768px) {
             .header h1 {
                 font-size: 32px;
             }
-            
+
             .header .subtitle {
                 font-size: 18px;
             }
-            
+
             .section {
                 padding: 40px 20px;
             }
-            
+
             .section-title {
                 font-size: 24px;
             }
-            
+
             .arrow {
                 transform: rotate(90deg);
                 margin: 20px 0;
@@ -308,7 +308,7 @@
         <div class="subtitle">レシピ管理アプリの決定版！</div>
         <div class="description">
             お気に入りのレシピを簡単に保存・管理。<br>
-            YouTubeやInstagramからワンタップで追加できます。
+            YouTubeからワンタップで追加できます。
         </div>
     </div>
 
@@ -326,17 +326,17 @@
         <div class="section" id="features">
             <h2 class="section-title">RecipeClipの特徴</h2>
             <p class="section-subtitle">シンプルで使いやすい、レシピ管理の新しいカタチ</p>
-            
+
             <div class="features">
                 <div class="feature-card">
                     <span class="feature-icon">📱</span>
                     <div class="feature-title">かんたん登録</div>
                     <div class="feature-description">
-                        YouTubeやInstagramのURLを貼るだけ。<br>
+                        YouTubeのURLを貼るだけ。<br>
                         自動でレシピ情報を取得します。
                     </div>
                 </div>
-                
+
                 <div class="feature-card">
                     <span class="feature-icon">📝</span>
                     <div class="feature-title">メモ機能</div>
@@ -345,7 +345,7 @@
                         自由にメモを追加できます。
                     </div>
                 </div>
-                
+
                 <div class="feature-card">
                     <span class="feature-icon">🛒</span>
                     <div class="feature-title">買い物リスト</div>
@@ -354,7 +354,7 @@
                         まとめて買い物リストに。
                     </div>
                 </div>
-                
+
                 <div class="feature-card">
                     <span class="feature-icon">📅</span>
                     <div class="feature-title">献立機能</div>
@@ -363,16 +363,7 @@
                         献立を自動で作成できます。
                     </div>
                 </div>
-                
-                <div class="feature-card">
-                    <span class="feature-icon">🔒</span>
-                    <div class="feature-title">安心のプライバシー</div>
-                    <div class="feature-description">
-                        すべてのデータは端末内に保存。<br>
-                        サーバーには送信されません。
-                    </div>
-                </div>
-                
+
                 <div class="feature-card">
                     <span class="feature-icon">✨</span>
                     <div class="feature-title">シンプルUI</div>
@@ -388,7 +379,7 @@
         <div class="section" id="howto">
             <h2 class="section-title">RecipeClipの使い方</h2>
             <p class="section-subtitle">たった3ステップで始められます</p>
-            
+
             <div class="steps">
                 <div class="step">
                     <div class="step-number">1</div>
@@ -398,20 +389,20 @@
                         無料でダウンロード
                     </div>
                 </div>
-                
+
                 <div class="arrow">→</div>
-                
+
                 <div class="step">
                     <div class="step-number">2</div>
                     <div class="step-title">レシピを追加</div>
                     <div class="step-description">
-                        YouTubeやInstagramのURLを<br>
+                        YouTubeのURLを<br>
                         コピー&ペーストするだけ
                     </div>
                 </div>
-                
+
                 <div class="arrow">→</div>
-                
+
                 <div class="step">
                     <div class="step-number">3</div>
                     <div class="step-title">管理・活用</div>
@@ -427,12 +418,12 @@
         <div class="download-section" id="download">
             <h2 class="download-title">今すぐダウンロード</h2>
             <p class="download-subtitle">無料で始められます</p>
-            
+
             <div class="download-buttons">
                 <a href="#" class="download-btn">📱 App Store</a>
                 <a href="#" class="download-btn">🤖 Google Play</a>
             </div>
-            
+
             <p class="coming-soon">※現在審査中です。公開までもうしばらくお待ちください。</p>
         </div>
     </div>
